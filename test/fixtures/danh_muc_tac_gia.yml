@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  matacgia: MyString
+  tentacgia: MyString
+  website: MyString
+  ghichu: MyString
+
+two:
+  matacgia: MyString
+  tentacgia: MyString
+  website: MyString
+  ghichu: MyString

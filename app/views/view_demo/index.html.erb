@@ -1,0 +1,40 @@
+<div class="row">
+    Danh mục sách:
+    <% @danhmucsach.each do |item| %>
+        <br>
+        <%= item.id %>
+            <br>
+            <%= item.masach %>
+                <br>
+                <%= item.tensach %>
+                    <br>
+                    <%= item.matacgia %>
+                        <br>
+                        <%= item.matheloai %>
+                            <br>
+                            <%= item.manxb %>
+                                <br>
+                                <%= item.namxuatban %>
+                                    <br>
+                                    <% end %>
+
+                                        Danh mục sách:
+                                        <% @danhmucsach.each do |item| %>
+                                            <br>
+                                            <%= item.id %>
+                                                <br>
+                                                <%= item.masach %>
+                                                    <br>
+                                                    <%= item.tensach %>
+                                                        <br>
+                                                        <%= item.matacgia %>
+                                                            <br>
+                                                            <%= item.matheloai %>
+                                                                <br>
+                                                                <%= item.manxb %>
+                                                                    <br>
+                                                                    <%= item.namxuatban %>
+                                                                        <br>
+                                                                        <% end %>
+</div>
+</div>
