@@ -15,26 +15,49 @@
                             <%= item.manxb %>
                                 <br>
                                 <%= item.namxuatban %>
-                                    <br>
+                                    <br> <br>
                                     <% end %>
 
-                                        Danh mục sách:
-                                        <% @danhmucsach.each do |item| %>
+                                        Danh mục tác giả:
+                                        <% @tacgia.each do |tac| %>
                                             <br>
-                                            <%= item.id %>
+                                            <%= tac.id %>
                                                 <br>
-                                                <%= item.masach %>
+                                                <%= tac.matacgia %>
                                                     <br>
-                                                    <%= item.tensach %>
+                                                    <%= tac.tentacgia %>
                                                         <br>
-                                                        <%= item.matacgia %>
+                                                        <%= tac.website %>
                                                             <br>
-                                                            <%= item.matheloai %>
-                                                                <br>
-                                                                <%= item.manxb %>
-                                                                    <br>
-                                                                    <%= item.namxuatban %>
+                                                            <%= tac.ghichu %>
+                                                                <br> <br>
+                                                                <% end %>
+
+                                                                    Thể loại sách:
+                                                                    <% @theloai.each do |theloai| %>
                                                                         <br>
-                                                                        <% end %>
+                                                                        <%= theloai.id %>
+                                                                            <br>
+                                                                            <%= theloai.matheloai %>
+                                                                                <br>
+                                                                                <%= theloai.theloaisach %>
+                                                                                    <br> <br>
+                                                                                    <% end %>
+                                                                                        Nhà xuất bản:
+                                                                                        <% @nxb.each do |nxb| %>
+                                                                                            <br>
+                                                                                            <%= nxb.id %>
+                                                                                                <br>
+                                                                                                <%= nxb.manxb %>
+                                                                                                    <br>
+                                                                                                    <%= nxb.tennxb %>
+                                                                                                        <br>
+                                                                                                        <%= nxb.diachi %>
+                                                                                                            <br>
+                                                                                                            <%= nxb.email %>
+                                                                                                                <br>
+                                                                                                                <%= nxb.thongtinnguoidaidien %>
+                                                                                                                    <br>
+                                                                                                                    <% end %>
 </div>
 </div>
